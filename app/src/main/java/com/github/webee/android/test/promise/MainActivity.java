@@ -1,4 +1,4 @@
-package com.webee.android.test.promise;
+package com.github.webee.android.test.promise;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
@@ -6,7 +6,7 @@ import android.util.Log;
 import android.widget.TextView;
 
 import com.webee.android.R;
-import com.webee.android.promise.AndroidExecutors;
+import com.github.webee.android.promise.AndroidExecutors;
 import com.webee.promise.Promise;
 import com.webee.promise.PromiseExecutors;
 import com.webee.promise.Transition;

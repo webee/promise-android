@@ -1,4 +1,4 @@
-package com.webee.android.promise;
+package com.github.webee.android.promise;
 
 import android.os.Handler;
 import android.os.Looper;
