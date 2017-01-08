@@ -2,7 +2,6 @@ package com.github.webee.android.promise;
 
 import android.os.Handler;
 import android.os.Looper;
-import android.support.annotation.NonNull;
 
 import java.util.concurrent.Executor;
 
@@ -22,7 +21,7 @@ public class LooperExecutor implements Executor {
     }
 
     @Override
-    public void execute(@NonNull Runnable r) {
+    public void execute(Runnable r) {
         handler.post(r);
     }
 }
