@@ -5,13 +5,12 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.widget.TextView;
 
-import com.webee.android.R;
 import com.github.webee.android.promise.AndroidExecutors;
-import com.webee.promise.Promise;
-import com.webee.promise.PromiseExecutors;
-import com.webee.promise.Transition;
-import com.webee.promise.functions.Action;
-import com.webee.promise.functions.Fulfillment;
+import com.github.webee.promise.Promise;
+import com.github.webee.promise.PromiseExecutors;
+import com.github.webee.promise.Transition;
+import com.github.webee.promise.functions.Action;
+import com.github.webee.promise.functions.Fulfillment;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
@@ -34,7 +33,7 @@ public class MainActivity extends AppCompatActivity {
         new Promise<>("init", new Fulfillment<String>() {
             @Override
             public void run(final Transition<String> transition) {
-                PromiseExecutors.defaultExcutor().execute(new Runnable() {
+                PromiseExecutors.defaultExecutor().execute(new Runnable() {
                     @Override
                     public void run() {
                         try {

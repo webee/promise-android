@@ -21,6 +21,6 @@ public class ExampleInstrumentedTest {
         // Context of the app under test.
         Context appContext = InstrumentationRegistry.getTargetContext();
 
-        assertEquals("com.webee.promiseandroid", appContext.getPackageName());
+        assertEquals("com.github.webee.android.test.promise", appContext.getPackageName());
     }
 }

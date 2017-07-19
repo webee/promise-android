@@ -1,6 +1,6 @@
 # PromiseAndroid
 
-[![Release](https://img.shields.io/github/release/webee/promise-android.svg?label=maven version)](https://jitpack.io/#webee/promise-android)
+[![Release](https://img.shields.io/github/release/webee/promise-android.svg?label=maven%20version)](https://jitpack.io/#webee/promise-android)
 
 Promise for Android base on promise4j.
 
